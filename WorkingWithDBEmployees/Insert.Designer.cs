@@ -48,7 +48,6 @@
             // 
             // numInsertRate
             // 
-            this.numInsertRate.DecimalPlaces = 2;
             this.numInsertRate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.numInsertRate.Location = new System.Drawing.Point(361, 48);
             this.numInsertRate.Maximum = new decimal(new int[] {
@@ -59,6 +58,7 @@
             this.numInsertRate.Name = "numInsertRate";
             this.numInsertRate.Size = new System.Drawing.Size(81, 26);
             this.numInsertRate.TabIndex = 73;
+            this.numInsertRate.ThousandsSeparator = true;
             // 
             // numInsertCountHours
             // 
